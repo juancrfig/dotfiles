@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Hello DevPod!" > /tmp/hello
+
+echo "set -o vum" >> ~/.bashrc
