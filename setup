@@ -2,4 +2,6 @@
 
 echo "Hello DevPod!" > /tmp/hello
 
-echo "set -o vum" >> ~/.bashrc
+echo "set -o vi" >> ~/.bashrc
+git config --global user.email "juancrfig@gmail.com"
+git config --global user.name "juancrfig"
