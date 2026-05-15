@@ -1,4 +1,4 @@
 #!/bin/bash
 
 /usr/local/bin/mise trust /workspaces/dotfiles/mise.toml && /usr/local/bin/mise install
-/usr/local/bin/chezmoi init --apply --source=/workspaces/dotfiles
+/usr/local/bin/mise x chezmoi -- chezmoi init --apply --source=/workspaces/dotfiles
