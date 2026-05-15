@@ -1,3 +1,5 @@
 [tools]
 vim = "latest"
 chezmoi = "latest"
+neovim = "latest"
+node = "latest"
