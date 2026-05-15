@@ -1,13 +1,3 @@
-#!/bin/bash
-
-set -ueo pipefail
-
-if ! command -v chezmoi > /dev/null; then
-    sh -c "$(curl -fsLS get.chezmoi.io)" --init --apply git@github.com:juancrfig/dotfiles.git
-fi
-
-exit 0
+#!/bash/bin
 
 echo "set -o vi" >> ~/.bashrc
-git config --global user.email "juancrfig@gmail.com"
-git config --global user.name "juancrfig"
