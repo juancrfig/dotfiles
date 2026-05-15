@@ -1,4 +1,0 @@
-[tools]
-chezmoi = "latest"
-kubectl = "latest"
-vim = "latest"
